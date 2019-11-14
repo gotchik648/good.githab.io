@@ -1,0 +1,56 @@
+li{
+   color: rgb(22, 22, 22);
+   display: inline-block;
+   margin-left: 130px;
+   font-family: 'Roboto', sans-serif;
+
+}
+
+.Life{
+    margin-left: 25%;
+
+}
+
+li:hover{
+    color: #03a9f4;
+}
+
+span{
+    color: #b4ad9e;
+    display: block;
+    margin-top: 5%;
+    font-family: Arial;
+}
+
+button{
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 44px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.second{
+    width: 30%;
+    display: inline-block;
+    margin: 40px;
+    margin-left: 15px;
+}
+
+.third{
+    width: 30%;
+    display: inline-block;
+    margin: 40px;
+    margin-left: 4px;
+    margin-top: 20px;
+}
+h2{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 100;
+}
+div{
+    margin-top: 20%;
+}
