@@ -1,56 +1,124 @@
-li{
-   color: rgb(22, 22, 22);
-   display: inline-block;
-   margin-left: 130px;
-   font-family: 'Roboto', sans-serif;
-
+.navigation_links li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #95e1d3;
 }
 
-.Life{
-    margin-left: 25%;
-
+.navigation_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
 }
 
-li:hover{
-    color: #03a9f4;
+.navigation_links li{
+    margin-right: 57px;
 }
 
-span{
-    color: #b4ad9e;
+.small_head_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+
+.big_head_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 200px 50px 200px;
+}
+
+.second_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 200px 50px 200px;
+}
+
+.icon {
+    margin: 0px 20px 26px 20px;
+}
+
+.info_block {
+    display: flex;
+    align-items: center;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.describe {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 194px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+.underline {
     display: block;
-    margin-top: 5%;
-    font-family: Arial;
+    background-color: #f38181;
+    height: 3px;
+    margin: 50px 636.5px;
+
 }
 
-button{
-    border: 1px solid black;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-left: 44px;
-    background-color: white;
-    font-size: 18px;
+#logo {
+    margin: 0px 0px 1em 180px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #95e1d3;
+    font-size: 30px;
 }
 
-.second{
-    width: 30%;
-    display: inline-block;
-    margin: 40px;
-    margin-left: 15px;
-}
-
-.third{
-    width: 30%;
-    display: inline-block;
-    margin: 40px;
-    margin-left: 4px;
-    margin-top: 20px;
-}
-h2{
-    font-family: 'Frank Ruhl Libre';
-    font-weight: 100;
-}
-div{
-    margin-top: 20%;
+.navigation_links li a:hover{
+    color: #f38181;
+    border-bottom: 3px solid;
+    transition: 0.3s;
 }
