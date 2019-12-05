@@ -1,0 +1,68 @@
+.navigation {
+    margin: 100px 250px 100px 355px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #626262;
+}
+
+.navigation ul li{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 105px;
+}
+
+.first_block div{
+    display: inline-block;
+    width: 420px;
+    height: 610px;
+}
+
+.img {
+    margin: 0px 61px 0px 220px;
+}
+
+.content div img {
+    margin-bottom: 32px;
+    width: 420px;
+    height: 280px;
+}
+
+.small_text{
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.second_block div{
+    display: inline-block;
+    width: 420px;
+}
+
+.button {
+    border: 1px solid #626262;
+    background-color: #ffffff;
+    padding: 13px 34px 13px 34px;
+    margin: 60px 0px 70px 44%;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.main_text{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+.big_text{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+}
+
+.navigation ul li a:hover{
+    color: #03a9f4;
+}
