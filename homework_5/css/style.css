@@ -1,0 +1,338 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 1200px;
+}
+
+.navigation_links {
+    width: 517px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation_links li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #95e1d3;
+    position: relative;
+}
+
+#logo {
+    width: 258px;
+    text-align: end;
+}
+
+#logo a {
+    margin-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #95e1d3;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_head_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+
+.big_head_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.underline {
+    display: block;
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    margin: 50px 0px;
+
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: 71.1%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b3b3b3;
+    margin-bottom: 95px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.second_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.describe {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.info_block {
+    display: flex;
+    align-items: center;
+    width: 311px;
+}
+
+.icon {
+    margin-bottom: 30px;
+    width: 113px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.navigation_links li a:hover {
+    color: #f38181;
+}
+
+.navigation_links li a:after {
+    background-color: #f38181;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    transition: .3s ease-in-out;
+    transform: translateX(-50%);
+    margin-top: 12px;
+}
+.navigation_links li a:hover:after,
+.navigation_links li a:focus:after {
+    width: 100%;
+}
+
+.developers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.developer_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.developer_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin: 30px 0px 15px 0px;
+}
+
+.developer_post {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: #b3b3b3;
+    margin-bottom: 85px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.credits {
+    border-top: 1px solid #e5e5e5;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credits_info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.credits_info a {
+    color: #f38181;
+    text-decoration: none;
+}
+
+footer input {
+    border: 1px solid #e7e7e7;
+    height: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: #d9d9d9;
+    width: 230px;
+    position: relative;
+    left: 5px;
+    padding-left: 15px;
+}
+::-webkit-input-placeholder {
+    color: #d9d9d9;
+}
+
+footer button {
+    height: 42px;
+    width: 150px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    border: 0px solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.mathew_dix{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    background-image: url(../img/Matthew\ Dix.png);
+}
+
+.christopher_campbell{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    background-image: url(../img/Christopher\ Campbell.png);
+}
+
+.michael_fertig{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    background-image: url(../img/Michael\ Fertig.png);
+}
+    
+.social {
+    background-color: #fce38a;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_links :hover {
+    background-color: #95e1d3;
+}
+
+.social_sites {
+    display: flex;
+    justify-content: center;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 470px;
+    width: 227px;
+}
+
+.gradient {
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    right: 10px;
+    top: -10px;
+    background-image: linear-gradient(to bottom, rgb(232, 23, 113), rgb(232, 36, 108), rgb(231, 50, 104), rgb(231, 63, 99), rgb(230, 76, 95), rgb(230, 90, 90), rgb(229, 103, 86), rgb(229, 117, 81), rgb(228, 130, 77), rgb(228, 143, 72), rgb(227, 157, 68), rgb(227, 170, 63));
+    opacity: .8;
+    display: none;
+    
+}
+
+.mathew_dix:hover .gradient {
+    display :block;
+}
+
+.christopher_campbell:hover .gradient{
+    display :block;
+}
+
+.michael_fertig:hover .gradient{
+    display :block;
+}
