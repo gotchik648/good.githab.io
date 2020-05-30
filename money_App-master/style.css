@@ -1,0 +1,376 @@
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("./fonts//SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("./fonts//SourceSansPro-Regular.otf");
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header,
+main,
+footer {
+    width: 100%;
+    margin: 0px;
+}
+
+.container {
+    width: 1201px;
+
+}
+
+.logo {
+    font-family: "SourceSansPro-Bold";
+    font-size: 48px;
+    color: #ffb83d;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 145px;
+}
+
+.s1 {
+    background-image: url("./img/photo_2020-05-01_20-20-44.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.s1_title {
+    font-family: "SourceSansPro-Bold";
+    font-size: 72px;
+    color: #ffb83d;
+    padding-top: 254px;
+    padding-left: 145px;
+    margin-bottom: 80px;
+}
+
+.s1_desk {
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    color: #000000;
+    padding-left: 145px;
+    padding-bottom: 203px;
+    margin: 0;
+}
+
+/* s2 */
+.s2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.s2_subTitle {
+    display: block;
+    text-align: center;
+    font-family: "SourceSansPro-Bold";
+    font-size: 40px;
+    color: #ffb83d;
+}
+
+.s2_incomes,
+.s2_costs {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.s2_costs {
+    height: 350px;
+    background-color: #f7f7f7;
+    border-radius: 80px;
+    height: auto;
+}
+
+.s2_incomes-main,
+.s2_incomes-addit,
+.s2_costs-main,
+.s2_costs-addit {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.s2_costs-main div,
+.s2_costs-addit div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.s2_incomes-main p,
+.s2_incomes-addit p,
+.s2_costs-main p,
+.s2_costs-addit p {
+    font-family: "SourceSansPro-Bold";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.incomes-main,
+.incomes-addit {
+    width: 92px;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 26px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "SourceSansPro-Bold";
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.s2_costs-btn {
+    display: block;
+    width: 346px;
+    height: 74px;
+    background-color: #00bcb0;
+    color: white;
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.91);
+}
+
+.s2_total-btn {
+    display: block;
+    margin: 100px auto;
+    width: 560px;
+    height: 80px;
+    color: white;
+    background-color: #ffb83d;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.91);
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* розвахувати бюджет */
+.budget_calculation {
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.budget_calculation-item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 560px;
+    margin: 5px 0px;
+}
+
+.budget_calculation-item div {
+    text-align: center;
+    width: 160px;
+}
+
+.budget_calculation-item p {
+    font-family: "SourceSansPro-Bold";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.budget_calculation-item button {
+    display: block;
+    width: 160px;
+    height: 26px;
+    background-color: #00bcb0;
+    color: white;
+    font-family: "SourceSansPro-Bold";
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+/* перелік основних витрат */
+.mainCosts-list,
+.additCosts-list {
+    font-family: "SourceSansPro-Regular";
+    font-size: 26px;
+    margin: 50px 0;
+}
+
+.mainCosts-list span,
+.additCosts-list span {
+    margin-right: 10px;
+    position: relative;
+}
+
+.close-img{
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    display: inline-block;
+    position: relative;
+}
+
+/* перелік додаткових витрат */
+
+
+/* введіть свої витрати */
+.form-back {
+    background-color: rgba(0, 0, 0, 0.71);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.form_enter-costs {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 1092px;
+    height: 478px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.61);
+}
+
+.form_enter-costs h4 {
+    font-family: "SourceSansPro-Bold";
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.form-main-block {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 790px;
+    height: 250px;
+    overflow: auto;
+}
+
+.cost-block {
+    width: 780px;
+    margin-bottom: 10px;
+    height: 40px;
+    justify-content: center;
+}
+
+
+.enter_costname,
+.enter_costsum {
+    height: 40px;
+    padding-left: 20px;
+    color: black;
+    font-family: "SourceSansPro-Regular";
+    font-size: 20px;
+    /* font-weight: bold; */
+    border: none;
+    border: 1px solid rgb(225, 230, 225);
+    border-radius: 5px;
+}
+
+.enter_costname {
+    width: 354px;
+    margin-right: 140px;
+}
+
+.enter_costsum {
+    width: 230px;
+}
+
+.add-cost {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00bcb0;
+    color: #f7f7f7;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.send-costs {
+    width: 232px;
+    height: 76px;
+    color: #f7f7f7;
+    background-color: #00a51c;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.61);
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* розвахувати бюджет */
+
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: #f7f7f7;
+    font-family: "SourceSansPro-Regular";
+    font-size: 30px;
+    padding: 0 145px;
+    background-color: #00bcb0;
+}
